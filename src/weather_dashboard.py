@@ -84,8 +84,8 @@ def main():
             humidity = weather_data['main']['humidity']
             description = weather_data['weather'][0]['description']
             
-            print(f"Temperature: {temp}°F")
-            print(f"Feels like: {feels_like}°F")
+            print(f"Temperature: {temp}Â°F")
+            print(f"Feels like: {feels_like}Â°F")
             print(f"Humidity: {humidity}%")
             print(f"Conditions: {description}")
             
