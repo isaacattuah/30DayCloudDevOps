@@ -10,21 +10,21 @@ The repository is organized into separate directories for each cloud provider:
 
 ```
 DEVOPS/
-??? .venv/                 # Python virtual environment (ignored by Git)
-??? aws/                   # AWS-specific configurations and resources
-?   ??? weather-dashboard-demo/ # Example AWS application
-?   ??? terraform/         # Infrastructure as Code (IaC) for AWS
-?   ??? scripts/           # Automation scripts for AWS
-??? azure/                 # Azure-specific configurations and resources
-?   ??? terraform/         # Infrastructure as Code (IaC) for Azure
-?   ??? scripts/           # Automation scripts for Azure
-??? gcp/                   # GCP-specific configurations and resources
-?   ??? terraform/         # Infrastructure as Code (IaC) for GCP
-?   ??? scripts/           # Automation scripts for GCP
-??? requirements.txt       # Python dependencies
-??? .env                   # Environment variables (ignored by Git)
-??? .gitignore             # Ignored files and folders
-??? README.md              # Project documentation (this file)
+├── .venv/                 # Python virtual environment (ignored by Git)
+├── aws/                   # AWS-specific configurations and resources
+│   ├── weather-dashboard-demo/ # Example AWS application
+│   ├── terraform/         # Infrastructure as Code (IaC) for AWS
+│   └── scripts/           # Automation scripts for AWS
+├── azure/                 # Azure-specific configurations and resources
+│   ├── terraform/         # Infrastructure as Code (IaC) for Azure
+│   └── scripts/           # Automation scripts for Azure
+├── gcp/                   # GCP-specific configurations and resources
+│   ├── terraform/         # Infrastructure as Code (IaC) for GCP
+│   └── scripts/           # Automation scripts for GCP
+├── requirements.txt       # Python dependencies
+├── .env                   # Environment variables (ignored by Git)
+├── .gitignore             # Ignored files and folders
+└── README.md              # Project documentation (this file)
 ```
 
 ---
